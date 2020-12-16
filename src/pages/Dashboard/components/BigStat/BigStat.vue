@@ -16,13 +16,13 @@
         </b-dropdown>
       </div>
       <div class="px-5">
-        <h4 class="fw-semi-bold mb-lg mt-sm">{{total}}</h4>
+        <h4 class="fw-semi-bold mb-sm mt-sm">{{total}}</h4>
         <div class="d-flex">
           <div class="w-50 py-3 pr-2">
             <div class="d-flex align-items-start">
               <h6>+{{registrations.value}}</h6>
               <i
-                :class="`la la-arrow-right la-lg ml-sm text-${registrations.profit ? 'primary' : 'danger'}
+                :class="`la la-arrow-right la-lg ml-sm text-${registrations.profit ? 'success' : 'danger'}
                 rotate-${registrations.profit ? '315' : '45'}`"
               />
             </div>
@@ -32,7 +32,7 @@
             <div class="d-flex align-items-start">
               <h6>{{bounce.value}}%</h6>
               <i
-                :class="`la la-arrow-right la-lg ml-sm text-${bounce.profit ? 'primary' : 'danger'}
+                :class="`la la-arrow-right la-lg ml-sm text-${bounce.profit ? 'success' : 'danger'}
                 rotate-${bounce.profit ? '315' : '45'}`"
               />
             </div>

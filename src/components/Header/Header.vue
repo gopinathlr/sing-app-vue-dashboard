@@ -32,18 +32,16 @@
         </b-form-group>
       </b-form>
     </b-nav>
-    <a  class="navbarBrand d-md-none">
-      <i class="fa fa-circle text-primary mr-n-sm" />
+    <a class="navbarBrand d-md-none">
       <i class="fa fa-circle text-danger" />
       &nbsp;
       sing
       &nbsp;
-      <i class="fa fa-circle text-danger mr-n-sm" />
       <i class="fa fa-circle text-primary" />
     </a>
     <b-nav class="ml-auto">
       <b-nav-item-dropdown
-        class="notificationsMenu d-md-down-none mr-2"
+        class="notificationsMenu d-sm-down-none mr-2"
         menu-class="notificationsWrapper py-0 animate__animated animate__animated-fast animate__fadeIn"
         right>
         <template slot="button-content">
@@ -51,7 +49,7 @@
             <img class="rounded-circle" src="../../assets/people/a5.jpg" alt="..." />
           </span>
           <span class="small">Philip Smith</span>
-          <span class="ml-1 circle bg-primary text-white fw-bold">13</span>
+          <span class="ml-1 mr-3 circle bg-primary text-white fw-bold">13</span>
         </template>
         <Notifications />
       </b-nav-item-dropdown>
